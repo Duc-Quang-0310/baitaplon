@@ -1,0 +1,12 @@
+h3{
+    color: rgb(25, 182, 182);
+}
+/* . dung cho class */
+.first-title{
+    color: darkorange;
+}
+
+/* # dung cho id */
+#youtube-link{
+    color: darkred;
+}

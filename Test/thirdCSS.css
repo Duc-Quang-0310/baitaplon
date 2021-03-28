@@ -1,0 +1,24 @@
+h1 {
+    padding: 20px 20px;
+    background-color: khaki;
+}
+
+/* margin la tao khoang trang ben ngoai
+padding la tao khoang trang ben trong */
+
+div{
+    background-color: lightcoral;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 20px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* should do  */

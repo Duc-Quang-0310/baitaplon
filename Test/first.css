@@ -1,0 +1,27 @@
+/* h1{
+    color: darkseagreen;
+}
+
+.random h1{
+    color: deeppink;
+}
+
+*{
+   font-size: medium;
+}
+
+.my-list + ul {
+    list-style: none;
+}
+
+.nav-links   li {
+    color: rgb(37, 99, 161);
+}
+
+.nav-links li a {
+    color: gold;
+} */
+
+.links li:nth-child(3) {
+ color: rgb(199, 39, 191);
+}
