@@ -1,12 +1,22 @@
+/* all html */
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color:#a1d2f5 ;
+  background-color: #a1d2f5;
 }
 
+html {
+  font-size: 62, 5%;
+}
+
+/* all html */
+
+/* nav */
 .nav-container {
   background: #faf3f3;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
@@ -46,6 +56,23 @@ nav ul {
   text-decoration: none;
 }
 
+.nav-items a {
+  opacity: 80%;
+}
+
+.nav-items a:hover {
+  font-weight: bold;
+}
+
+.nav-items {
+  margin-left: 20rem;
+}
+
+.nav-items li a {
+  font-size: 1.5rem;
+  margin-left: 7rem;
+}
+
 .search-btn {
   padding-top: 0.7%;
   position: absolute;
@@ -55,6 +82,9 @@ nav ul {
   bottom: 93.26%;
   width: 2%;
 }
+
+/* end nav */
+
 /* header */
 .header-container {
   background-color: #a1d2f5;
@@ -68,13 +98,13 @@ header {
   justify-content: space-between;
 }
 
-header .hero-image{
+header .hero-image {
   position: relative;
 }
-header .hero-image img{
+header .hero-image img {
   transition: 300ms;
 }
-header .hero-image img:hover{
+header .hero-image img:hover {
   transform: rotate(-6deg);
 }
 
@@ -111,9 +141,8 @@ header a {
 header a:hover {
   transform: translateY(-8px);
 }
-
-header a{
-
+.hero-container {
+  position: relative;
 }
 .hero-image {
   padding-top: 4rem;
@@ -127,22 +156,24 @@ header a{
 }
 
 /* hidden items */
-.search-box {
-  display: none;
-}
+
 .image-container {
   width: 40rem;
   height: 30rem;
   align-items: center;
-  border: 2px  white;
+  border: 2px white;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-  background: #8BC5EF;
+  background: #8bc5ef;
   border-radius: 10%;
 }
 .name {
   margin-left: 2%;
   width: 15%;
 }
+
+/* end header */
+
+/* footer */
 
 .insta-icon {
   margin-left: 2%;
@@ -155,28 +186,8 @@ header a{
   margin-top: 3%;
 }
 
-.nav-items li a {
-  font-size: 1.5rem;
-  margin-left: 7rem;
-}
-
-.accessories {
-  width: 11.2rem;
-}
-
-.nav-items {
-  margin-left: 20rem;
-}
-
 footer {
-  background-color:#a1d2f5 ;
+  background-color: #a1d2f5;
 }
 
-.nav-items a{
-  opacity: 80%;
-}
-
-.nav-items a:hover{
-  text-decoration: underline;
-}
-
+/* end footer */
