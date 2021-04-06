@@ -34,6 +34,7 @@ input{
     background-color: whitesmoke;
     border-radius: 35px;
     border-style: none;
+    padding-left: 7%;
 }
 
 .password{
@@ -48,8 +49,9 @@ input{
     margin-top: 6%;
 }
 
-p{
-    font-size: 30;
+.acc-check a{
+    font-size: 16px;
+
 }
 
 .wrapper{
@@ -61,6 +63,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     width: 30%;
+    margin-bottom: 3%;
 }
 
 .confirm{
@@ -85,7 +88,12 @@ p{
 
 .acc-check{
     padding-right: 4%;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: small;
+    text-align: center;
+}
+
+.wrapper input:focus{
+    outline: none;
 }
 
